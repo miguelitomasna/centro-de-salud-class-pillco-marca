@@ -209,10 +209,21 @@ body{
     align-items: center;
 }
 
+.experts div {
+    width: 45%;
+}
+
+@media only screen and (max-width: 768px) {
+    .experts div {
+        width: 100%; /* Cambia el ancho a 100% para una sola columna en dispositivos móviles */
+    }
+}
+
 .cont-expert {
     width: 100%;
     text-align: center;
     margin-bottom: 100px;
+    margin: 20px;
 }
 
 .cont-expert img{
@@ -232,6 +243,10 @@ body{
     display: 50%;
     margin-top: 20px;
     font-weight: 400;
+}
+
+.cont-expert h3 {
+    text-align: justify;
 }
 
 footer{
